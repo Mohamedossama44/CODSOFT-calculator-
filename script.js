@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 display.textContent = equation;
             }
 
+
             if (operator) {
                 currentInput = '';
                 equation += ` ${operator} `;
